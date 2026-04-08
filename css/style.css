@@ -1,0 +1,48 @@
+/* by element */
+/* h1{
+    color: yellow;
+} */
+
+
+
+
+/* by id */
+#hello{
+    color: green;
+}
+
+
+#Name1{
+    color: crimson;
+}
+
+
+#Name2{
+    color: blueviolet;
+}
+
+
+#Name3{
+    color: cornflowerblue;
+}
+
+#Name4{
+    color: bisque;
+}
+
+body{
+    background-color: rgba(255, 0, 0, 0.217);
+}
+
+
+
+/* 
+#para{
+    font-size: 25px;
+} */
+
+
+.parent_para{
+    font-size: 25px;
+}
+
