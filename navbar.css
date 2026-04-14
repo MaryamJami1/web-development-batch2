@@ -1,0 +1,17 @@
+.nav{
+    background-color: palegreen;
+    height: 80px;
+    display: flex;
+}
+
+
+
+#child1{
+/* background-color: brown; */
+width: 50%;
+}
+
+#child2{
+    /* background-color: blueviolet; */
+    width: 50%;
+}

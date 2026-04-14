@@ -7,8 +7,8 @@
 
 
 /* by id */
-#hello{
-    color: green;
+/* #hello{ */
+/* color: green;
 }
 
 
@@ -28,9 +28,9 @@
 
 #Name4{
     color: bisque;
-}
+} */
 
-body{
+body {
     background-color: rgba(255, 0, 0, 0.217);
 }
 
@@ -42,7 +42,81 @@ body{
 } */
 
 
-.parent_para{
+/* .parent_para{
     font-size: 25px;
+} */
+
+#heading1 {
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Playwrite IE", cursive;
+
 }
 
+
+#para1 {
+    font-size: 40px;
+    text-decoration: line-through;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#para2 {
+    font-size: 40px;
+    text-decoration: overline;
+}
+
+
+#para3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 900;
+
+
+}
+
+
+#para5 {
+
+    text-transform: uppercase;
+    color: rgba(44, 58, 5, 0.993);
+    background-color: bisque;
+    padding: 50px;
+    margin: 90px;
+    height: 400px;
+    width: 400px;
+
+}
+
+
+.div1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* border-width: 20px;
+    border-style: dotted;
+    border-color: blueviolet; */
+
+
+    /* border  shorthand */
+
+    border: 8px solid palevioletred;
+
+
+
+}
+
+span {
+    background-color: blueviolet;
+    height: 400px;
+
+}
