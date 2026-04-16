@@ -80,9 +80,24 @@ a {
     font-size: 30px;
     text-decoration: none;
     font-weight: 900;
-
-
 }
+
+h3{
+    width: 50%;
+    text-align: center;
+    background-color: blue;
+    color: bisque;
+    /* border-width: 8px;
+    border-style: double;
+    border-color: chartreuse; */
+    border: 8px dashed palevioletred;
+    border-radius: 5px;
+}
+
+#a{
+    text-align: center;
+}
+
 
 
 #para5 {
@@ -119,4 +134,56 @@ span {
     background-color: blueviolet;
     height: 400px;
 
+}
+
+
+
+#box{
+    background-color: cadetblue;
+    height: 400px;
+    width: 400px;
+     border: 10px dashed palevioletred;
+    border-radius: 100%;
+    /* display: none; */
+    visibility: hidden;
+
+}
+
+
+#content{
+    background-color: chartreuse;
+    border: 5px solid;
+    /* padding: 20px; */
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 60px; */
+   padding: 15px 40px 80px 100px;
+   /* margin-top: 40px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 50px; */
+
+   margin: 40px 50px;
+
+}
+#one{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    /* display: inline; */
+    display: inline-block;
+
+}
+#two{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+       display: inline-block;
+
+}
+
+
+a{
+    display: block;
 }
