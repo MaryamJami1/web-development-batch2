@@ -187,3 +187,22 @@ span {
 a{
     display: block;
 }
+
+
+
+#parent{
+    background-color: aquamarine;
+    height: 600px;
+    font-size: 200px;
+}
+
+
+#child{
+    background-color: yellow;
+    height: 50%;
+    font-size: 2rem;    
+}
+
+/* create a parent div with border radius 50% set width 600px and height 600px
+inside parent div create a child div with border radius 50%
+child width and height should be half of parent height and width */
