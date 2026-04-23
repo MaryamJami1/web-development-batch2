@@ -192,18 +192,44 @@ a{
 
 #parent{
     background-color: aquamarine;
-    height: 600px;
+    height: 500px;
     font-size: 200px;
 }
 
 
 #child{
     background-color: yellow;
-    height: 50%;
-    font-size: 2rem;    
-    width: 4em;
+    /* width: 100vw; */
+    /* height: 50vh; */
+  
 }
+
+
+
+
 
 /* create a parent div with border radius 50% set width 600px and height 600px
 inside parent div create a child div with border radius 50%
 child width and height should be half of parent height and width */
+
+
+
+
+
+#bg-img{
+    height: 800px;
+    width: 1500px;
+
+    /* background-color: blueviolet; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbOm7VDsPeIHwedwrtznQrX2WCo0fBH7o2Q&s);
+    background-size: cover;
+
+}
+
+
+#h1{
+    color: bisque;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
