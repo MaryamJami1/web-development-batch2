@@ -1,4 +1,4 @@
-*{
+* {
     background-color: rgb(147, 180, 242);
 }
 
@@ -18,6 +18,17 @@
     width: 400px;
     border: 4px solid palegreen;
     display: inline-block;
+    /* position: relative; */
+    /* top: 50px; */
+    /* left: 0px; */
+    /* right: 40px;
+    bottom: 00px; */
+
+
+
+    position: absolute;
+    left: 200px;
+
 }
 
 
@@ -28,3 +39,5 @@
     border: 4px solid burlywood;
     display: inline-block;
 }
+
+
