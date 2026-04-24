@@ -3,6 +3,14 @@
 }
 
 
+
+.parent{
+    background-color: rgba(128, 255, 0, 0.797);
+    height: 820px;
+    position: relative;
+}
+
+
 #box1 {
     background-color: burlywood;
     height: 400px;
@@ -23,12 +31,10 @@
     /* left: 0px; */
     /* right: 40px;
     bottom: 00px; */
-
-
-
     position: absolute;
-    left: 200px;
-
+   right: 0px;
+   bottom: 0px;
+   
 }
 
 
