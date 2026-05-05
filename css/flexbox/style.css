@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+.parent {
+    /* flex container */
+    /* background-color: chocolate;
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap-reverse; */
+
+
+ 
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+
+
+    /* by default direction raw */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+.parent{
+    height: 500px;
+    width: 600px;
+    border: 2px solid red;
+    background-color: rgba(169, 169, 6, 0.212);
+    display: flex;
+    /* align-items: center;
+    justify-content: end; */
+    /* flex-wrap: wrap;
+    align-content: flex-start; */
+
+
+
+    /* cross axis */
+    /* align-items: ;    all items */
+    /* align-self: ;      specific item */
+}
+
+
+
+#box1 {
+    background-color: blueviolet;
+    height: 80px;
+    width: 80px;
+}
+
+#box2 {
+    background-color: rgb(226, 208, 43);
+    height: 80px;
+    width: 80px;
+}
+
+#box3 {
+    background-color: rgb(226, 43, 110);
+    height: 80px;
+    width: 80px;
+    flex-shrink: 2;
+}
+
+#box4 {
+    background-color: rgb(43, 226, 122);
+    height: 80px;
+    width: 80px;
+    /* align-self: flex-end; */
+}
+
+#box5{
+    background-color: rgb(43, 55, 226);
+    height: 80px;
+    width: 80px;
+    flex-grow: 2;
+
+
+}
+
+#box6{
+     background-color: rgb(226, 86, 43);
+    height: 80px;
+    width: 80px;
+
+}
